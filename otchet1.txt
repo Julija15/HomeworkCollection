@@ -1,0 +1,7 @@
+docnum895658639 : Name is correct
+1234567891011122357 : Length is incorrect
+contract795643p : Name is correct
+docnum12345lkj7 : Name is correct
+docnum123412368 : Name is correct
+contract987654v : Name is correct
+docnum45987fgk8 : Name is correct
