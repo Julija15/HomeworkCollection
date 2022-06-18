@@ -64,38 +64,5 @@ public class Main {
         } finally {
             bw.close();
         }
-
-
-//        File contract = new File("C:\\Users\\Julija\\Desktop\\document\\contract.txt");//C:\Users\Julija\Desktop\document\contract.txt
-//        BufferedWriter bw = null;
-//        BufferedWriter bw1 = null;
-//        try {
-//            FileReader contractreader = new FileReader(contract);
-//            BufferedReader reader = new BufferedReader(contractreader);
-//            FileWriter writer = new FileWriter("otchet1.txt");
-//            FileWriter writer1 = new FileWriter("otchet2.txt");
-//            bw = new BufferedWriter(writer);
-//            bw1 = new BufferedWriter(writer1);
-//
-//            while (reader.ready()) {
-//                String readLine = reader.readLine();
-//                System.out.println(readLine);
-//
-//                if ((readLine.startsWith("contract"))|| (readLine.startsWith("docnum")) || (readLine.length() == 15) || (readLine.matches("[a-z], %d"))) {
-//                    bw.write(readLine);
-//                    bw.write("\n");
-//                } else {
-//                    bw1.write(readLine);
-//                    bw1.write("\n");
-//                }
-//            }
-//        } catch (FileNotFoundException e) {
-//            throw new RuntimeException(e);
-//        } catch (IOException e) {
-//            throw new RuntimeException(e);
-//        }finally {
-//            bw.close();
-//            bw1.close();
-//        }
     }
 }
